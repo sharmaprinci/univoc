@@ -1,0 +1,44 @@
+
+.App {
+  font-family: 'Poppins', Arial, sans-serif;
+  min-height: 100vh;
+  background-color: linear-gradient(to bottom, #AEDDFF, #FFFFFF);
+}
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgba(204, 235, 255, 0.6), rgba(255, 255, 255, 0.6));
+
+  margin: 0;
+}
+
+
+
+/* src/index.css or your main CSS file */
+
+/*Navbar Top Bar Animation Part */
+@keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-scroll {
+    animation: scroll 15s linear infinite;
+  }
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.2); /* Transparent white */
+    border: 1px solid rgba(255, 255, 255, 0.4); /* Border effect */
+    backdrop-filter: blur(10px); /* Blur for glass effect */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+
+
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,54 @@
+/* about us */
+
+.about-container {
+  background: radial-gradient(circle, #fffaf0, #feebc8, #fbd38d);
+  width: 70%; /* Set the width to 70% */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding for spacing inside the box */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a slight shadow for depth */
+}
+
+  .about-hero {
+    padding: 4rem 2rem;
+  }
+  
+  .about-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: teal;
+    text-align: center;
+  }
+  .list-icon{
+    width: .3rem;
+    height: .3rem;
+    padding: .3rem;
+    margin-top: .7rem;
+    margin-right: 1rem;
+    background-color:#55a5fb ;
+    border-radius: 50%;
+  }
+  
+  .intro {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+  }
+  .intro li {
+    display: flex;
+  }
+  
+  .contact-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }

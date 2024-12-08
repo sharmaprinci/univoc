@@ -1,0 +1,41 @@
+
+.data-detail {
+  padding: 2rem 5rem 2rem 3rem;
+  max-width: 800px;
+  margin: auto;
+  background-color: rgb(184, 217, 250);
+}
+
+.data-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color:navy;
+}
+.data-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.data-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  padding: 20px;
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.section-heading {
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+.section-content {
+  color: black;
+  flex: 1;
+}

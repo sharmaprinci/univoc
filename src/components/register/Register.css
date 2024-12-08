@@ -1,0 +1,147 @@
+.register-section {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(180deg, #AEDDFF 0%, #FFF 100%);
+    padding-left: 469px;
+    padding-top: 80px;
+    padding-bottom: 4rem;
+}
+.register-h1 {
+    width: 488.936px;
+    height: 65.132px;
+    flex-shrink: 0;
+    color: var(--black-2-5, #444B59);
+    font-family: Overpass;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    text-transform: capitalize;
+}
+.register-label {
+    color: #444B59;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.register-input {
+    display: flex;
+    width: 436px;
+    height: 55px;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 80px;
+    border: 2px solid var(--dark-blue-1-8, #789ADE);
+    background: var(--Color, #FFF);
+}
+.radio-button .cursor-pointer {
+  width: 16px; 
+  height: 16px;
+}
+
+.radio-button label {
+  font-size: 20px; 
+  font-family: Nunito;
+  font-weight: 600;
+  margin-left: 8px; 
+  color: #444B59;
+}
+.signup-btn {
+    display: flex;
+    align-items: flex-start;
+    width: 436px;
+    height: 55px;
+    padding: 9px 32px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    background: var(--blue-2-7, #8699DA);
+    box-shadow: 0px 4px 12px 0px rgba(200, 211, 249, 0.60) inset, 4px 8px 12px 0px rgba(78, 99, 141, 0.06);
+    color: var(--white, var(--Color, #FFF));
+    text-align: center;
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 44px; /* 157.143% */
+    letter-spacing: 2.8px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.signup-btn:hover {
+    background-color: #789ADE;
+    color: white;
+}
+.register-span {
+    width: 415.744px;
+    height: 30.749px;
+    flex-shrink: 0;
+    color: var(--black-2-5, #444B59);
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.register-link {
+    color: var(--Linear-2, #EE5757);
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+.continue-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 472px;
+    height: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .svg {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+  }
+  
+  .continue-h2 {
+    position: relative;
+    background-color: white;
+    padding: 0 8px;
+    color: var(--black-2-5, #444B59);
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  
+.register-social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    height: 80px;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.register-social-icons > .icon {
+    display: flex;
+    flex-shrink: 0;
+    width: 80px;
+    height: 70px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #789ADE;
+    background: #FFF;
+}

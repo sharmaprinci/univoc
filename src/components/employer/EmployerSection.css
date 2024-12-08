@@ -1,0 +1,190 @@
+.employer-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff; 
+  padding: 0;
+}
+
+.employer-section {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+.employer-box {
+  width: 50%;
+  height: 463px;
+  flex: 1;
+  padding: 60px;
+  text-align: center;
+  background-color: #f1f8ff; 
+}
+
+.why-univoc-box {
+  width: 50%;
+  height: 463px;
+  flex: 1;
+  display: flex;
+  background-color: #ddeeff; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+}
+.emp-div{
+  font-size: 26px;
+  font-weight: 500;
+  /* padding-top: 48px; */
+  color: #4e4e4e;
+  text-align: center;
+}
+.font-18{
+  font-size: 18px;
+  padding-top: 16px;
+  color: #4e4e4e;
+  text-align: center;
+}
+.post-job-button {
+  width: 25%;
+  background-color: #4a90e2;  
+  color: white;
+  border: none;
+  padding: 12px 23px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 32px;
+  margin-left: 34%;
+}
+.post-job-button:hover {
+  background-color: #357ab7; 
+}
+.job-reg-count{
+  display: inline-block;
+  background-color: #fff;
+  width: 240px;
+  height: 175px;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 42px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.job-reg-section {
+  display: block;
+  
+}
+.job-reg-title{
+  margin-top: 16px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 28px;
+  color: #4e4e4e;
+}
+.job-reg-subtitle {
+  text-align: center;
+  color: #4e4e4e;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.univoc-image {
+  width: 300px;
+  border-radius: 8px;
+}
+.why-univoc {
+  font-size: 26px;
+  font-weight: 500;
+  color: #4e4e4e;
+  text-align: center;
+  padding-top: 0;
+}
+.click-note {
+  font-size: 16px;
+  color: #333;
+}
+
+.benefits-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 15px;
+  line-height: 1.8;
+}
+
+.benefits-list li {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.benefits-list li:hover {
+  color: #4a90e2;
+  cursor: pointer;
+}
+
+@media (max-width:480px) {
+  .employer-section {
+    display: block;
+  }
+  .employer-box {
+    width: 100%;
+    height: 110vh;
+    font-size: 20px;
+    padding: 0;
+  }
+  .emp-div {
+    padding-top: 40px;
+  }
+  .post-job-button {
+    width: 40%;
+    margin-top: 32px;
+    margin-left: 30%;
+  }
+  .why-univoc-box {
+    width: 100%;
+    height: 115vh;
+    display: block;
+    padding: 0;
+  }
+  .why-univoc {
+    padding-top: 30px;
+  }
+  .image-box {
+    display: block;
+    margin-top: 40px;
+    margin-left: 37px;
+  }
+  .job-reg-count{
+    width: 200px;
+    height: 175px;
+    margin-top: 42px;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding-top: 0;
+  }
+  .job-reg-title{
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .univoc-image {
+    width: 300px;
+    border-radius: 8px;
+  }
+  .click-note {
+    margin-left: 50px;
+  }
+  
+  .benefits-list {
+    padding-left: 50px;
+  }
+}
+
